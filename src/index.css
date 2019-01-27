@@ -100,7 +100,7 @@ nav {
   background-color: white;
 }
 
-.nav-item.active .nav-link {
+.nav-link.active {
   color: white;
   background-color: #333;
 }
