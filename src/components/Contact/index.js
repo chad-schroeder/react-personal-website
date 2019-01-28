@@ -23,20 +23,36 @@ class Contact extends PureComponent {
                 employment opportunities beginning March&nbsp;2019.
               </p>
 
-              <a
-                href="https://www.linkedin.com/in/chad-schroeder/"
-                className="h4 m-0 no-link-decoration"
-              >
-                <img
-                  className="mr-2"
-                  src="images/icons/linkedin.png"
-                  width="54"
-                  alt="linkedin profile icon"
-                />
-                <span className="text-uppercase link-small font-weight-bold">
-                  LinkedIn
-                </span>
-              </a>
+              <div className="d-flex flex-column flex-md-row">
+                <a
+                  href="https://www.linkedin.com/in/chad-schroeder/"
+                  className="h4 mb-2 mb-md-0 no-link-decoration"
+                >
+                  <img
+                    className="mr-2"
+                    src="images/icons/linkedin.png"
+                    width="54"
+                    alt="linkedin profile icon"
+                  />
+                  <span className="text-uppercase link-small font-weight-bold">
+                    LinkedIn
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/chad-schroeder"
+                  className="h4 m-0 no-link-decoration"
+                >
+                  <img
+                    className="ml-md-4 mr-2"
+                    src="images/icons/github.svg"
+                    width="52"
+                    alt="linkedin profile icon"
+                  />
+                  <span className="text-uppercase link-small font-weight-bold">
+                    Github
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

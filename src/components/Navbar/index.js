@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import './index.css';
 
 class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar">
+      <>
         <nav className="d-flex align-items-center">
           <ul className="nav">
             <li className="nav-item">
@@ -29,13 +30,12 @@ class Navbar extends Component {
             </li>
           </ul>
         </nav>
-
         <img
           src="images/icons/users-4.svg"
           className="avatar"
           alt="avatar of me"
         />
-      </div>
+      </>
     );
   }
 }
