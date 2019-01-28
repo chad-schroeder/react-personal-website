@@ -19,8 +19,8 @@ class Contact extends PureComponent {
               <p className="lead">
                 I'm currently enrolled in the November 2018 cohort of{' '}
                 <a href="https://www.rithmschool.com/">Rithm School</a> to
-                improve my javascript know-how and will not be looking for new
-                employment opportunities until March&nbsp;2019.
+                improve my javascript know-how and will be looking for new
+                employment opportunities beginning March&nbsp;2019.
               </p>
 
               <a
