@@ -19,11 +19,8 @@ class Home extends PureComponent {
               <p className="lead mb-4">
                 My name is <strong>Chad Schroeder</strong> and I'm a{' '}
                 <strong>Senior UI Developer</strong> in San Francisco. Welcome
-                to a humble homepage to showcase my coding projects on&nbsp;
-                <a href="https://github.com/chad-schroeder?tab=repositories">
-                  Github
-                </a>
-                .
+                to a humble homepage to showcase a few coding projects on&nbsp;
+                <a href="https://github.com/chad-schroeder">Github</a>.
               </p>
               <Link to="/projects" className="h4 m-0 no-link-decoration">
                 <img
